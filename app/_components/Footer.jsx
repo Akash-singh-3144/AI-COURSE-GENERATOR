@@ -41,7 +41,7 @@ function Footer() {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/akash-singh/"
+          href="https://www.linkedin.com/in/akash-singh-5614b0253/"
           type="button"
           className="rounded-full p-3 font-medium uppercase leading-normal text-surface transition duration-150 ease-in-out hover:bg-primary/50 focus:outline-none focus:ring-0"
           data-twe-ripple-init
