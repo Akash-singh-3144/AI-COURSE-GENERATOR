@@ -22,7 +22,7 @@ import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
 function FinishScreen({ params }) {
-  const Params = React.use(params);
+  const Params = params;
   const { user } = useUser();
   const [course, setCourse] = useState(null);
   const [loading, setLoading] = useState(true);

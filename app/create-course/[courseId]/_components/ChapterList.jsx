@@ -6,7 +6,7 @@ function ChapterList({ course, refreshData, edit = true }) {
     <div className="mt-3">
       <h2 className="font-medium text-xl">Chapters</h2>
       <div className="mt-2">
-        {course?.course?.courseOutput?.Chapters.map((chapter, index) => (
+        {course?.courseOutput?.Chapters?.map((chapter, index) => (
           <div
             key={index}
             className="border p-5 rounded-lg mb-2 flex items-center justify-between"

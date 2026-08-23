@@ -15,7 +15,7 @@ import { useRouter } from "next/navigation";
 import { useToast } from "@/hooks/use-toast";
 
 function CourseLayout({ params }) {
-  const Params = React.use(params);
+  const Params = params;
   const { user } = useUser();
   const [course, setCourse] = useState(null);
   const [loading, setLoading] = useState(false);
