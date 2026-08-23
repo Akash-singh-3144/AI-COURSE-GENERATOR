@@ -13,7 +13,7 @@ import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
 function Course({ params }) {
-  const Params = React.use(params);
+  const Params = params;
   const { toast } = useToast();
   const [course, setCourse] = useState(null);
   const [loading, setLoading] = useState(true);

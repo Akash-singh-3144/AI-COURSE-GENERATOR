@@ -11,7 +11,7 @@ import { and, eq } from "drizzle-orm";
 import { useToast } from "@/hooks/use-toast";
 
 function CourseStart({ params }) {
-  const Params = React.use(params);
+  const Params = params;
   const [course, setCourse] = useState(null);
   const [selectedChapter, setSelectedChapter] = useState(null);
   const [selectedChapterContent, setSelectedChapterContent] = useState(null);
